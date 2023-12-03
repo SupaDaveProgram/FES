@@ -1,7 +1,3 @@
-ecomm css project
-
-ecomm css
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
 
 * {
@@ -246,7 +242,7 @@ HIGHLIGHTS
 
 #highlights:after,
 #highlights:before {
-  background: url(wave.svg);
+  background: url(FES.assets/wave.svg);
   content: "";
   position: absolute;
   width: 101vw;
