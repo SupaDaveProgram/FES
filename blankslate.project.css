@@ -1,0 +1,220 @@
+blankslate css project
+
+blankslate css
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100%;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  animation: fade-up 700ms ease;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.yeah {
+  opacity: 1;
+  color: blueviolet;
+  display: inline-block;
+  animation: animate-wave 2s ease-in-out;
+}
+
+.hov-yeah {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.hov-yeah:hover {
+  cursor: auto;
+  animation: animate-wave 1000ms ease;
+}
+
+@keyframes animate-wave {
+  0% {
+    opacity: 1.1;
+    transform: rotate(0);
+  }
+  25% {
+    opacity: 0.5;
+    transform: rotate(180deg);
+  }
+  50% {
+    opacity: 0.9;
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.nav {
+  animation: fade-over 500ms ease-out;
+  max-width: 1200px;
+  padding: 10px;
+  background-color: rgb(8, 18, 19);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+@keyframes fade-over {
+  0% {
+    transform: translateX(-70%);
+  }
+}
+
+li {
+  color: rgb(77, 119, 156);
+  padding-left: 12px;
+  transition: 2s ease;
+}
+
+li:hover {
+  cursor: pointer;
+  color: aliceblue;
+  transition: 300ms ease-in-out;
+}
+
+@keyframes logo-pop {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo {
+  border: 2px solid rgb(88, 33, 88);
+  border-radius: 30%;
+  width: 15%;
+  height: 50%;
+  animation: logo-pop 1s ease-in-out;
+}
+
+.purple-contact {
+  background-color: rgb(88, 33, 88);
+  border: 3px solid rgb(77, 119, 156);
+  border-radius: 60px;
+  padding: 4px 8px;
+  transition: 100ms ease;
+}
+
+.purple-contact:hover {
+  background-color: rgb(77, 119, 156);
+  border: 3px solid purple;
+  transition: 300ms ease;
+}
+
+main {
+  text-align: center;
+}
+
+.about-wrapper {
+  padding-right: 20px;
+  background-color: rgb(236, 226, 36);
+  height: calc(100vh - 170px);
+}
+
+p {
+  max-height: 40%;
+}
+
+.about-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-img {
+  margin-left: 20px;
+  border-radius: 30%;
+  box-shadow: 0 10px 16px rgb(8, 18, 19, 0.95);
+}
+
+.h1-title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 35px;
+  font-weight: 90px;
+}
+
+.about-para {
+  font-size: 20px;
+  font-weight: 100%;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.instructions-wrapper {
+  padding-right: 20px;
+  text-align: center;
+  background-color: plum;
+  padding-bottom: 80px;
+}
+
+main:last-chil {
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+.instructions-description {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.instructions-para {
+  font-size: 20px;
+  font-weight: 100%;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.instructions-img {
+  max-width: 250px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 30%;
+  box-shadow: 0 10px 16px rgb(8, 18, 19, 0.95);
+}

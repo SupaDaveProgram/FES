@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 32px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+  margin: 32px 0;
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+.img__logo {
+  height: 40px;
+  margin: 0 12px 0 0;
+}
+
+.nav__linktreact {
+  text-decoration: none;
+  color: #243e63;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+.nav__linktreact:hover {
+  color: #6415ff;
+  transition: 400ms ease-in-out;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__link,
+.blog__link,
+.pricing__link,
+.contact__link {
+  font-size: 15px;
+  margin: 0 24px;
+  padding: 0 0 4px;
+  text-decoration: none;
+  color: #243e63;
+  font-weight: bold;
+}
+
+.about__link:hover,
+.blog__link:hover,
+.pricing__link:hover,
+.contact__link:hover {
+  color: #6415ff;
+  transition: 400ms ease-in-out;
+  text-decoration: 3px underline;
+}
+
+.login__link {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 24px 0 48px;
+  padding: 0 0 4px;
+  text-decoration: none;
+  color: #243e63;
+}
+
+.login__link:hover {
+  color: #6415ff;
+  transition: 400ms ease-in-out;
+  text-decoration: 3px underline;
+}
+
+.signup__link {
+  font-weight: bold;
+  font: 14px;
+  padding: 12px 32px;
+  background-color: #6415ff;
+  border-radius: 30px;
+  color: #f7fcf6;
+  text-decoration: none;
+}
+
+.signup__link:hover {
+  background-color: #5705fcfc;
+  transition: 400ms ease-in-out;
+}
+
+.purples__link {
+  border: none;
+  color: #f7fcf6;
+  background-color: #6415ff;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column1__description {
+  align-items: center;
+}
+
+
+
+
+.btn {
+    border: none;
+   padding: 16px 0;
+   margin: 8px 0;
+}
+
+.input__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 9999px;
+    border-width: 2px;
+    background: #FFFFFF;
+    padding: 20px 192px 20px 32px;
+   
+}
+
+.column2 {
+}
+
+.column2__img {
+  width: 500px;
+}
