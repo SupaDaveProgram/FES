@@ -273,7 +273,7 @@ HIGHLIGHTS
   width: calc(100% / 3);
   display: flex;
   align-items: center;
-  
+
   flex-direction: column;
 }
 
@@ -426,12 +426,11 @@ footer {
     display: block;
   }
 
-.highlight {
-  width: 100%;
-}
+  .highlight {
+    width: 100%;
+  }
 
-.highlight:not(:last-child) {
-  margin-bottom: 24px;
-}
-
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
