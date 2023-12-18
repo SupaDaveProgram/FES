@@ -26,7 +26,7 @@ nav {
   color: brown;
 }
 
-img{
+.nav__img , img{
   margin: 8px 4px;
   width: 300px;
   border: brown solid 3px;
@@ -37,9 +37,12 @@ img{
 
 header {
   background-image: url(https://s-media-cache-ak0.pinimg.com/736x/43/bf/e9/43bfe9137766e3b7c065344e2add4787.jpg);
-  height:100%
-  ;
-  background-size: 1180px;
+  height:100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
 }
 
 ul {
@@ -51,7 +54,6 @@ ul {
 li {
   margin-left: 8px;
   list-style-type: none;
-  
 }
 
 a {
@@ -77,7 +79,6 @@ text-decoration: underline lawngreen;
 .color:hover {
   background-color: brown;
   color: lawngreen;
-  
   transition: 600ms all;
 }
 
@@ -85,43 +86,100 @@ text-decoration: underline lawngreen;
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  
-}
-
 .header__title {
   font-size: 32px;
   background-color: brown;
   color: lawngreen;
   box-shadow: 0px 8px 9px brown;
+  margin-bottom: 24px;
 }
 
 .header__para {
+  text-align: center;
   background-color: lawngreen;
-  border-radius: 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 25px lawngreen;
+  margin-bottom: 18px;
+}
+
+.header__wrapper {
+  text-align: center;
 }
 
 /*Featrues*/
+
+.Features {
+
+}
+
+.firstclass__wrapper {
+display: flex;
+align-items: flex-end;
+justify-content: space-evenly;
+}
+
+.firstclass__feartures {
+
+}
+
+.secondclass__wrapper {
+  display: flex;
+  align-items: flex-end;
+}
 
 .feature__img {
   width: 100px;
 }
 
-.Features {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.feature__heading {
-color: brown;
-background-color: ;
+.feature__title {
+  background-color: rgba(53, 46, 46, 0.333);
+  color: brown;
+  box-shadow: 0 1px 20px rgb(0, 0, 0);
 }
 
 .feature__para {
-  color: white;
-  font-size: 22px;
+  color: lawngreen;
+}
+
+/*FOOTER*/
+
+footer {
+  padding: 10px;
+  border: 1px solid lawngreen;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__links {
+  border: 5px solid rgba(0, 0, 0, 0.208);
+  display: flex;
+  box-shadow: 0 12px 12px;
+}
+
+.footer__link {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.footer__img {
+  width: 50px;
+  box-shadow: 0px 1px 12px 1px;
+}
+
+.page__power {
+  margin-top: 16px;
+}
+
+.footerlogo__wrapper {
+  color: brown;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 12px 1px lawngreen;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 18px;
+  font-size: 24px;
 }
