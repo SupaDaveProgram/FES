@@ -8,6 +8,16 @@
   max-width: 1268px;
 }
 
+.skate__chain {
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  position: fixed;
+  right: 15px;
+  bottom: 0px;
+  border-radius: 15px;
+}
+
 nav {
   width: 100%;
   background-image: url();
@@ -90,20 +100,31 @@ text-decoration: underline lawngreen;
   font-size: 32px;
   background-color: brown;
   color: lawngreen;
-  box-shadow: 0px 8px 9px brown;
+  box-shadow: 0px 1px 12px 25px brown;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 24px;
   margin-bottom: 24px;
 }
 
 .header__para {
+  width: 85%;
   text-align: center;
-  background-color: lawngreen;
-  border-radius: 5px;
-  box-shadow: 0 15px 25px lawngreen;
+  color: rgba(81, 58, 30, 0.725);
+  background-color: rgba(126, 252, 0, 0.915);
+  border-radius: 15px;
+  box-shadow: 0px 1px 15px 5px lawngreen;
   margin-bottom: 18px;
+  font-weight: 900;
+  border: 5px dotted;
+  padding: 15px;
 }
 
 .header__wrapper {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*Featrues*/
@@ -139,11 +160,13 @@ justify-content: space-evenly;
 
 .feature__para {
   color: lawngreen;
+  padding: 20px;
 }
 
 /*FOOTER*/
 
 footer {
+  height: 50vh;
   padding: 10px;
   border: 1px solid lawngreen;
   background-color: brown;
@@ -154,6 +177,8 @@ footer {
 
 .footer__links {
   border: 5px solid rgba(0, 0, 0, 0.208);
+  border-radius: 8px;
+  padding: 4px;
   display: flex;
   box-shadow: 0 12px 12px;
 }

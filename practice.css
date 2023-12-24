@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1268px;
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+}
+
+.nav__img {
+    width: 200px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 12px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-left: 16px;
+}
+
+
+h1 {
+    font-size: 72px;
+}
+
+.sub__header {
+
+}
+
+button {
+    border: none;
+}
+
+.landing__img {
+    width: 400px;
+}
+
+.landing {
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.298);
+    padding: 24px;
+}
+
+.landing__button {
+    background-color: aquamarine;
+    color: antiquewhite;
+    font-size: 12px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+#About {
+    background-color: rgba(255, 255, 0, 0.271);
+    text-align: center;
+}
+
+.about {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: calc(100vh - 70px);
+
+}
+
+.about__img {
+    width: 300px;
+}
+
+#Discord {
+    background-color: rgba(127, 255, 212, 0.604);
+    text-align: center;
+}
+
+.discord {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    height:calc(100vh - 50px);
+}
+
+.discord__img {
+    width: 300px;
+    height: 300px;
+}
+
+.contact__wrapper {
+    text-align: center;
+    height: calc(100vh - 50px);
+    background-color: rgb(204, 229, 251);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+    
+}
+
+.form__button {
+    background-color: aquamarine;
+    color: antiquewhite;
+    font-size: 12px;
+    padding: 8px 52px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.color {
+    color: antiquewhite;
+}
+
+label {
+    padding: 8px;
+}
+
+input {
+    padding: 8px 16px;
+}
+
+textarea {
+    padding:8px 16px ;
+}
+
+footer {
+    background-color: aquamarine;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    
+    
+}
+
+.footer__logo {
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+.footer__link {
+    margin: 12px 24px
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
