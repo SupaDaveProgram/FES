@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap')
 
-* {
-  font-family: "Roboto", sans-serif;
+{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  max-width: 1268px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .skate__chain {
@@ -159,8 +158,10 @@ justify-content: space-evenly;
 }
 
 .feature__para {
-  color: lawngreen;
+  color: rgb(126, 252, 0);
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.471);
+  border: none;
 }
 
 /*FOOTER*/
