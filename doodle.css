@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
 
-{
+* {
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  max-width: 1268px;
 }
 
 .skate__chain {
@@ -66,13 +67,15 @@ li {
 }
 
 a {
-  color: lawngreen;
+  color: brown;
   text-decoration: none;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
   }
 
-  .a:hover {
-text-decoration: underline lawngreen;
-
+  a:hover {
+color:lawngreen;
+transition: 500ms ease-in-out;
   }
 
 .color {
@@ -148,7 +151,9 @@ justify-content: space-evenly;
 }
 
 .feature__img {
+  height: 100px;
   width: 100px;
+  animation: float 3500ms infinite alternate-reverse;
 }
 
 .feature__title {
@@ -208,4 +213,15 @@ footer {
   font-weight: 900;
   margin-bottom: 18px;
   font-size: 24px;
+}
+
+@keyframes float {
+ 0% {
+  transform:translateY(0);
+ 
+ }
+ 100% {
+  transform: translateY(10px);
+ 
+ }
 }
